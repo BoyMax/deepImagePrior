@@ -31,7 +31,8 @@ input_depth = 32
 INPUT =     'noise'
 pad   =     'reflection'
 OPT_OVER =  'net'
-KERNEL_TYPE='gauss1sq2'
+KERNEL_TYPE='udf'
+kernel_path ='../data/sr/kernel_gauss.png'
 LR = 0.01
 tv_weight = 0.0
 OPTIMIZER = 'adam'
@@ -50,7 +51,7 @@ mse = torch.nn.MSELoss().type(dtype)
 img_LR_var = np_to_torch(img_lr_np).type(dtype)
 
 #convolution initialization for LR
-convolution = Convolution(n_planes=1, kernel_type=KERNEL_TYPE, phase=0, preserve_size=True).type(dtype)
+convolution = Convolution(n_planes=1, kernel_type=KERNEL_TYPE, kernel_path, preserve_size=True).type(dtype)
 
 
 # define closure and optimize
