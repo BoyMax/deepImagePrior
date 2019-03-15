@@ -1,0 +1,964 @@
+[W 20:31:31.764 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 20:31:31.771 NotebookApp] Serving notebooks from local directory: /home/Vivien/deepImagePrior
+[I 20:31:31.771 NotebookApp] The Jupyter Notebook is running at:
+[I 20:31:31.771 NotebookApp] http://(dip or 127.0.0.1):5000/
+[I 20:31:31.771 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 20:31:37.804 NotebookApp] Kernel started: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 20:31:38.436 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 20:31:47.686 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:31:57.348 NotebookApp] Starting buffering for b9bb1259-7f3e-4bec-8fd9-5a044058ce6b:c3ab0a5075714081902f88c2ed366c16
+[I 20:31:57.559 NotebookApp] Kernel restarted: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 20:31:58.259 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 20:31:58.260 NotebookApp] Restoring connection for b9bb1259-7f3e-4bec-8fd9-5a044058ce6b:c3ab0a5075714081902f88c2ed366c16
+[I 20:31:58.260 NotebookApp] Replaying 6 buffered messages
+[I 20:33:38.108 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:35:38.152 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:37:38.134 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:39:38.094 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:41:38.110 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:43:38.130 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:45:38.134 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:47:38.144 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:49:38.132 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:51:38.114 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:53:38.155 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:55:38.091 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:57:38.153 NotebookApp] Saving file at /deconvolution.ipynb
+[I 20:59:38.212 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:01:38.097 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:03:38.094 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:05:38.194 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:07:38.111 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:09:38.139 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:11:38.170 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:13:38.109 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:15:38.157 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:17:38.209 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:19:38.162 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:21:38.154 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:23:38.137 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:25:38.152 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:27:38.133 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:29:38.185 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:31:38.230 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:33:38.178 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:35:38.164 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:37:38.232 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:39:38.155 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:41:38.180 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:43:38.213 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:45:38.197 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:47:38.252 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:49:38.231 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:51:38.151 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:53:38.151 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:55:38.205 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:57:38.153 NotebookApp] Saving file at /deconvolution.ipynb
+[I 21:59:38.241 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:01:38.256 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:03:38.201 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:05:38.474 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:07:38.178 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:09:38.178 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:11:38.226 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:13:38.250 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:15:38.400 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:17:50.456 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:20:01.376 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:22:11.342 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:24:21.271 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:26:31.220 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:28:41.902 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:30:51.343 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:33:01.263 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:35:11.181 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:37:21.251 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:39:31.344 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:41:41.201 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:43:51.310 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:46:01.343 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:48:11.277 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:50:21.448 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:52:31.289 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:54:41.454 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:56:51.196 NotebookApp] Saving file at /deconvolution.ipynb
+[I 22:59:01.401 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:01:11.484 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:03:21.321 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:05:31.387 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:07:41.306 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:09:51.464 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:12:01.486 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:14:11.286 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:16:21.339 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:18:31.466 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:20:41.231 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:22:51.217 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:25:01.498 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:27:11.373 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:29:21.309 NotebookApp] Saving file at /deconvolution.ipynb
+[W 23:29:37.583 NotebookApp] Clearing invalid/expired login cookie username-34-76-47-95-5000
+[W 23:29:37.584 NotebookApp] Clearing invalid/expired login cookie username-34-76-47-95-5000
+[I 23:29:37.585 NotebookApp] 302 GET /notebooks/deconvolution.ipynb (188.74.64.39) 1.95ms
+[I 23:29:41.375 NotebookApp] 302 POST /login?next=%2Fnotebooks%2Fdeconvolution.ipynb (188.74.64.39) 1.35ms
+[I 23:29:44.497 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 23:31:31.379 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:33:41.486 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:35:51.520 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:38:01.491 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:40:11.465 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:42:21.235 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:44:31.531 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:46:41.399 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:48:51.362 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:51:01.415 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:53:11.458 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:55:21.412 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:57:31.257 NotebookApp] Saving file at /deconvolution.ipynb
+[I 23:59:41.370 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:01:51.256 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:04:01.338 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:06:11.352 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:08:21.503 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:10:31.545 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:12:41.397 NotebookApp] Saving file at /deconvolution.ipynb
+[W 00:13:44.499 NotebookApp] WebSocket ping timeout after 119777 ms.
+[E 00:13:44.902 NotebookApp] Uncaught exception in ZMQStream callback
+    Traceback (most recent call last):
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+[E 00:13:45.004 NotebookApp] Uncaught exception in zmqstream callback
+    Traceback (most recent call last):
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+        self._handle_recv()
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+        self._run_callback(callback, msg)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+        callback(*args, **kwargs)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+        return fn(*args, **kwargs)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+        self.on_recv(lambda msg: callback(self, msg), copy=copy)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+        super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+        self.write_message(msg, binary=isinstance(msg, bytes))
+      File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 259, in write_message
+        raise WebSocketClosedError()
+    tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Exception in callback BaseAsyncIOLoop._handle_events(38, 1)
+handle: <Handle BaseAsyncIOLoop._handle_events(38, 1)>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/platform/asyncio.py", line 122, in _handle_events
+    handler_func(fileobj, events)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 450, in _handle_events
+    self._handle_recv()
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 480, in _handle_recv
+    self._run_callback(callback, msg)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 432, in _run_callback
+    callback(*args, **kwargs)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/stack_context.py", line 300, in null_wrapper
+    return fn(*args, **kwargs)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/zmq/eventloop/zmqstream.py", line 196, in <lambda>
+    self.on_recv(lambda msg: callback(self, msg), copy=copy)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 419, in _on_zmq_reply
+    super(ZMQChannelsHandler, self)._on_zmq_reply(stream, msg)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/notebook/base/zmqhandlers.py", line 250, in _on_zmq_reply
+    self.write_message(msg, binary=isinstance(msg, bytes))
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 259, in write_message
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+ERROR:asyncio:Future exception was never retrieved
+future: <Future finished exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 874, in wrapper
+    yield fut
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1133, in run
+    value = future.result()
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/gen.py", line 1141, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/home/Vivien/miniconda3/envs/dip/lib/python3.6/site-packages/tornado/websocket.py", line 876, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 00:14:51.546 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:17:01.360 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:19:11.538 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:21:21.293 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:23:31.535 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:25:41.289 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:27:51.409 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:30:01.542 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:32:11.368 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:34:21.385 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:36:31.332 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:38:41.561 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:40:51.464 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:43:01.412 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:45:11.563 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:47:21.575 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:49:31.311 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:51:41.355 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:53:51.585 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:56:01.319 NotebookApp] Saving file at /deconvolution.ipynb
+[I 00:58:11.317 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:00:21.471 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:02:31.477 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:04:41.603 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:06:51.332 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:09:01.569 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:11:11.594 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:13:21.415 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:15:31.611 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:17:41.461 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:19:51.624 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:22:01.456 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:24:11.405 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:26:21.633 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:28:31.402 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:30:41.421 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:32:51.473 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:35:01.512 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:37:11.393 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:39:21.443 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:41:31.391 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:43:41.462 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:45:51.387 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:48:01.517 NotebookApp] Saving file at /deconvolution.ipynb
+[I 01:50:11.625 NotebookApp] Saving file at /deconvolution.ipynb
+[I 10:08:34.251 NotebookApp] Starting buffering for b9bb1259-7f3e-4bec-8fd9-5a044058ce6b:c3ab0a5075714081902f88c2ed366c16
+[I 10:08:34.959 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[W 10:08:54.986 NotebookApp] 400 GET /api/contents/result.npy?type=file&format=text&_=1552644534815 (188.74.65.30): /home/Vivien/deepImagePrior/result.npy is not UTF-8 encoded
+[W 10:08:54.986 NotebookApp] /home/Vivien/deepImagePrior/result.npy is not UTF-8 encoded
+[W 10:08:54.986 NotebookApp] 400 GET /api/contents/result.npy?type=file&format=text&_=1552644534815 (188.74.65.30) 28.57ms referer=http://34.76.47.95:5000/edit/result.npy
+[I 10:09:09.090 NotebookApp] Saving file at /deconvolution.ipynb
+[I 10:10:04.326 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:22:36.252 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 14:24:36.158 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:26:36.227 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:28:36.166 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:30:36.211 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:32:36.167 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:35:08.833 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 14:37:08.916 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:38:24.833 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:39:08.802 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:39:47.370 NotebookApp] Kernel restarted: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 14:39:48.048 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 14:41:08.800 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:43:08.794 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:45:08.802 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:47:08.807 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:49:08.800 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:51:08.811 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:53:08.809 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:55:08.822 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:57:08.823 NotebookApp] Saving file at /deconvolution.ipynb
+[I 14:59:08.818 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:01:08.827 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:03:08.822 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:05:08.831 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:07:08.823 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:09:08.828 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:11:08.826 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:13:09.075 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:15:09.117 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:17:09.203 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:19:09.185 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:21:09.162 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:21:35.027 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:21:50.255 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:22:20.154 NotebookApp] Kernel restarted: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:22:27.331 NotebookApp] Kernel restarted: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:22:30.428 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:22:45.869 NotebookApp] Kernel restarted: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:22:51.310 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:23:07.268 NotebookApp] Kernel restarted: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:23:07.917 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:24:51.294 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:26:52.246 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:28:51.267 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:30:51.283 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:32:52.214 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:34:52.149 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:36:51.385 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:38:51.384 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:40:51.358 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:42:51.282 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:44:51.287 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:46:51.368 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:48:52.134 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:50:51.295 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:52:51.302 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:54:52.378 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:56:52.186 NotebookApp] Saving file at /deconvolution.ipynb
+[I 15:57:02.924 NotebookApp] 302 GET /notebooks/deconvolution.ipynb (192.41.125.255) 0.88ms
+[I 15:57:05.289 NotebookApp] 302 POST /login?next=%2Fnotebooks%2Fdeconvolution.ipynb (192.41.125.255) 1.32ms
+[I 15:57:12.507 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 15:58:52.337 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:00:52.217 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:02:52.229 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:04:52.245 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:06:52.258 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:08:51.445 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:10:51.429 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:12:52.397 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:14:51.419 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:16:52.291 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:18:52.339 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:20:52.252 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:22:52.272 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:24:52.252 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:26:52.282 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:28:51.940 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:30:52.477 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:32:52.240 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:34:51.485 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:36:51.342 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:38:51.343 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:40:51.377 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:42:52.211 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:44:52.429 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:46:52.249 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:48:51.485 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:50:52.271 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:52:51.362 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:54:51.437 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:56:52.414 NotebookApp] Saving file at /deconvolution.ipynb
+[I 16:58:51.468 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:00:52.340 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:02:52.253 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:04:51.526 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:06:52.489 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:08:52.296 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:10:52.312 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:12:52.226 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:14:51.493 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:16:52.355 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:18:51.491 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:20:52.281 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:22:52.424 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:24:52.467 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:26:51.402 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:28:52.372 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:30:52.223 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:32:52.362 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:34:52.278 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:36:51.507 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:38:52.517 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:40:52.424 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:42:52.541 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:44:52.455 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:46:51.406 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:48:52.483 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:50:52.419 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:52:52.358 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:54:52.333 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:56:52.395 NotebookApp] Saving file at /deconvolution.ipynb
+[I 17:58:52.247 NotebookApp] Saving file at /deconvolution.ipynb
+[I 18:00:51.441 NotebookApp] Saving file at /deconvolution.ipynb
+[I 18:02:51.607 NotebookApp] Saving file at /deconvolution.ipynb
+[I 18:34:16.254 NotebookApp] 302 GET /login?next=%2Fnotebooks%2Fdeconvolution.ipynb (192.41.125.255) 1.22ms
+[I 18:34:19.501 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[W 19:15:49.502 NotebookApp] WebSocket ping timeout after 119873 ms.
+[I 19:19:09.562 NotebookApp] Adapting to protocol v5.1 for kernel b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
+[I 19:29:12.491 NotebookApp] Interrupted...
+[I 19:29:12.491 NotebookApp] Shutting down 1 kernel
+[I 19:29:13.096 NotebookApp] Kernel shutdown: b9bb1259-7f3e-4bec-8fd9-5a044058ce6b
