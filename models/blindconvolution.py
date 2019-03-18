@@ -33,7 +33,7 @@ class BiConvolution(nn.Module):
         convolution = nn.Conv2d(n_planes, n_planes, kernel_size=self.kernel.shape, stride=1,padding=0)
         convolution.weight.data[:] = 0
         convolution.bias.data[:] = 0
-        kernel_torch = torch.from_numpy(self.kernel)
+        kernel_torch = self.kernel
         for i in range(n_planes):
             convolution.weight.data[i, i] = kernel_torch       
         self.convolution_ = convolution
